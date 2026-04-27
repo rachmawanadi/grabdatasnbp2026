@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Dashboard Jurusan PTN")
 
 # load data
-df = pd.read_csv("dataset_teknik_sipil_indonesia.csv")
+df = pd.read_csv("dataset_ptn_371_385.csv")
 
 # search
 search = st.text_input("Cari Jurusan")
